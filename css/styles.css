@@ -1,0 +1,88 @@
+/*font-family: "Roboto", sans-serif;
+font-family: "Raleway", sans-serif;*/
+
+/* ------------GENERAL STYLES-----------*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------------PAGE HEADER-----------*/
+
+/*-- .page-header {}--*/
+/*-- .header-nav {}--*/
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+/*-- 3 module --.header-logo {margin-right: 76px;}--*/
+
+.header-logo .logo-part {
+  color: #2e2f42;
+}
+
+/*-- .header-nav-list {}--*/
+/*-- .header-nav-item {}--*/
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+/*-- .contacts-list {}--*/
+/*-- .contacts-item {}--*/
+
+.contacts-link {
+  /*-- .font-weight: 400; значення за замовчуванням у браузера, тому не задаэмо по коду--*/
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+/* ------------MAIN PAGE / order -----------*/
+/* ------------MAIN PAGE / features --------*/
+/* ------------MAIN PAGE / team ------------*/
+/* ------------MAIN PAGE / portfolio -------*/
+
+/* ------------PAGE FOOTER -----------------*/
+.page-footer {
+  background-color: #2e2f42;
+}
+
+/*-- 3 module -- .footer-logo {margin-bottom: 16px;}--*/
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
